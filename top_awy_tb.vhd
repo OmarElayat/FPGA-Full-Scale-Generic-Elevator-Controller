@@ -78,33 +78,5 @@ UUT: elevator_top
     wait;
 end process;
 
---monitor process
---process (ld, done)
---	variable m_tmp: std_logic_vector(9 downto 0);
---	variable n_tmp: std_logic_vector(9 downto 0);
---	variable error_status: boolean:= true;	
---begin
---	if (ld = '1') then 
---		m_tmp := m;
---		n_tmp := n;
---	end if;
---	if (done = '1' and m_tmp = std_logic_vector(to_unsigned(34, 10))) then 
---		if (q =  std_logic_vector(to_unsigned(2, 10))) then 
---			error_status := true;
---		else
---			error_status := false;
---		end if;
---	end if;
---	if (done = '1' and m_tmp = std_logic_vector(to_unsigned(25, 10))) then 
---		if (q =  std_logic_vector(to_unsigned(5, 10))) then 
---			error_status := true;
---		else
---			error_status := false;
---		end if;
---	end if;	
---	assert error_status
---		report ("Test Failed")
---		severity ERROR;		
---end process;
 end behav;             
                                        
