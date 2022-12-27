@@ -20,5 +20,6 @@ Behavioral Simulation:
 The design was loaded and verified on a DE0-CV FPGA.
 
 Lab Results:
+
 ![image](https://user-images.githubusercontent.com/107650627/209712760-0b151a6e-f4ba-4b93-b736-72db35ec1f1d.png)
 ![image](https://user-images.githubusercontent.com/107650627/209712793-c912ab6f-8c36-4305-8a3d-60cbeefd9241.png)
