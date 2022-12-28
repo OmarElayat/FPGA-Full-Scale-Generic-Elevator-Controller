@@ -1,4 +1,4 @@
-RTL implementation of a full-scale elevator control unit that is composed of two main modules: elevator controller and request genertor.
+RTL implementation of a full-scale elevator controller that is composed of two main modules: control unit and request genertor.
 
 ![image](https://user-images.githubusercontent.com/107650627/209875974-c6ca6e6b-62c2-4923-bd0a-510305565979.png)
 
