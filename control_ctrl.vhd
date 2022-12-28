@@ -1,6 +1,4 @@
---=============================
--- Listing 10.7 edge detector (Moore)
---=============================
+
 library ieee;
 use ieee.std_logic_1164.all;
 entity elevator_ctrl is
